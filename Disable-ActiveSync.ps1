@@ -1,1 +1,0 @@
-import-csv	activesync1.csv | foreach{Set-CASMailbox -Identity $_.UserID -ActiveSyncEnabled $false}
